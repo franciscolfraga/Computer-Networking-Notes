@@ -1,11 +1,17 @@
----
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>README</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
 
----
-
-<h1 id="computer-networking-notes">Computer Networking Notes</h1>
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="computer-networking-notes">Computer Networking Notes</h1>
 <h2 id="abstract">Abstract</h2>
-<p>Hi, my name is Francisco Fraga and I’m currently pursuing an MSc. in Electrical Engineering at Porto University. Since I’ve been always very interested in Computer Networking and I’m currently studying towards my job interviews, I figured out that it was a good idea to write some notes based on several sources. These notes expect you to have former background on basic topics. The references:</p>
+<p>Hi, my name is Francisco Fraga and I’m currently pursuing an MSc. in Electrical Engineering at Porto University. Since I’ve been always very interested in Computer Networking and I’m currently studying towards my job interviews, I figured out that it was a good idea to write some notes based on several sources. This notes expect you to have former background on basic topics. The references:</p>
 <ul>
 <li><strong>Computer Networking: A Top - Down Approach.</strong> - <em>Jim Kurose and Keith Ross</em></li>
 <li><strong>Computer Networks.</strong> - <em>Andrew S. Tanenbaum</em></li>
@@ -36,6 +42,15 @@
 </blockquote>
 <p>A <strong>packet switch</strong> is responsible for forwarding packets towards the direction of its ultimate destination. In addition, those packets arrive and are forwarded by means of incoming/outgoing  communication links. The two most common <strong>packet switches</strong> are link-layer switches (mainly used in access networks) and routers (typically used in the network core).</p>
 <blockquote>
-<p>The sequence of communication links and packet switches traversed by a packet from the sending end system to the receiving end system is known as a route or path through the network.</p>
+<p>The sequence of communication links and packet switches traversed by a packet from the sending end system to the receiving end system is known as a <strong>route</strong> or <strong>path</strong> through the network.</p>
 </blockquote>
+<p>However, we can also describe the Internet as in terms of an infrastructure for providing services to distributed applications. This point of view can be seen as several <strong>End Systems</strong> that run those applications, what allows them to change data with each other, always following a set of rules so that the Internet can deliver information to the destination program (End System).</p>
+<h2 id="protocols">Protocols</h2>
+<blockquote>
+<p>A protocol defines the format and the order of messages exchanged between two or more communicating entities, as well as the actions taken on the transmission and/or receipt of a message or other event.</p>
+</blockquote>
+<p>Computer Networks make use of protocols in order to allow its devices to communicate. Each device follows a set of rules which grant the ability of the listening machine to properly receive and understand the exchanged information. They define the way of how each involved entity should behave in a certain course of events.</p>
+</div>
+</body>
 
+</html>
