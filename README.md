@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html>
+---
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>README</title>
-  <link rel="stylesheet" href="https://stackedit.io/style.css" />
-</head>
 
-<body class="stackedit">
-  <div class="stackedit__html"><h1 id="computer-networking-notes">Computer Networking Notes</h1>
+---
+
+<h1 id="computer-networking-notes">Computer Networking Notes</h1>
 <h2 id="abstract">Abstract</h2>
 <p>Hi, my name is Francisco Fraga and I’m currently pursuing an MSc. in Electrical Engineering at Porto University. Since I’ve been always very interested in Computer Networking and I’m currently studying towards my job interviews, I figured out that it was a good idea to write some notes based on several sources. These notes expect you to have former background on basic topics. The references:</p>
 <ul>
@@ -44,7 +38,4 @@
 <blockquote>
 <p>The sequence of communication links and packet switches traversed by a packet from the sending end system to the receiving end system is known as a route or path through the network.</p>
 </blockquote>
-</div>
-</body>
 
-</html>
