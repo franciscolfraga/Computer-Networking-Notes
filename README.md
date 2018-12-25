@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html>
+---
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>README</title>
-  <link rel="stylesheet" href="https://stackedit.io/style.css" />
-</head>
 
-<body class="stackedit">
-  <div class="stackedit__html"><h1 id="computer-networking-notes">Computer Networking Notes</h1>
+---
+
+<h1 id="computer-networking-notes">Computer Networking Notes</h1>
 <h2 id="abstract">Abstract</h2>
 <p>Hi, my name is Francisco Fraga and I’m currently pursuing an MSc. in Electrical Engineering at Porto University. Since I’ve been always very interested in Computer Networking and I’m currently studying towards my job interviews, I figured out that it was a good idea to write some notes based on several sources. This notes expect you to have former background on basic topics. The references:</p>
 <ul>
@@ -50,7 +44,4 @@
 <p>A protocol defines the format and the order of messages exchanged between two or more communicating entities, as well as the actions taken on the transmission and/or receipt of a message or other event.</p>
 </blockquote>
 <p>Computer Networks make use of protocols in order to allow its devices to communicate. Each device follows a set of rules which grant the ability of the listening machine to properly receive and understand the exchanged information. They define the way of how each involved entity should behave in a certain course of events.</p>
-</div>
-</body>
 
-</html>
